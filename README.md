@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flashy is an API for studying using flashcards.
 
-Things you may want to cover:
+Spaced repetition algorithms allow you to study more efficiently.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The current version of this API supports a very simple version of the [Leitner system](https://en.wikipedia.org/wiki/Leitner_system).
