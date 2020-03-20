@@ -6,3 +6,16 @@ Style/HashTransformKeys:
   Enabled: true
 Style/HashTransformValues:
   Enabled: true
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+    - config/environments/*.rb
+Style/Documentation:
+  Exclude:
+    - ./**/*.rb
+Layout/LineLength:
+  Exclude:
+    - ./**/*.rb
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - ./**/*.rb

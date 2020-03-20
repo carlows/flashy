@@ -14,12 +14,12 @@ RSpec.describe CreateSessionItemOutcome do
   end
 
   it 'throws an exception if session item is invalid' do
-    expect {
+    expect do
       CreateSessionItemOutcome.execute(
         session_item_id: 'invalid',
         outcome: 'correct'
       )
-    }.to raise_error(ActiveRecord::RecordNotFound)
+    end.to raise_error(ActiveRecord::RecordNotFound)
   end
 
   context 'correct outcome' do
